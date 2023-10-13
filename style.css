@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-top {
+    background-image: url("https://assets.ccbp.in/frontend/dynamic-webapps/library-management-bg.png");
+    height: 40vh;
+    background-size: cover;
+}
+
+.heading-style {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.input-style {
+    height: 8vh;
+    width: 70vW;
+    padding-left: 13px;
+    border-radius: 5px;
+}
+
+.bottom-heading {
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bottom-heading-center {
+    text-align: center;
+}
+
+.result-container {
+    flex-wrap: wrap;
+}
+
+.book-img-style {
+    height: 35vh;
+    width: 37vw;
+    margin-bottom: 11px;
+}
+
+.title-style {
+    text-align: center;
+    font-family: Roboto;
+    color: #323f4b;
+    font-size: 18px;
+    font-weight: 400;
+}
