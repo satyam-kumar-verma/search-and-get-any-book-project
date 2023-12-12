@@ -18,8 +18,11 @@ function generateRandomColor(){
 
 function createAndAppendBookStyle(eachItem){
 
+    generateRandomColor();
+
     let detailContainer = document.createElement("div");
     detailContainer.classList.add("col-5", "book-container", "mb-3");
+    detailContainer.style.backgroundColor = randomColor;
     resultContainer.appendChild(detailContainer);
 
     let imageEl = document.createElement("img");
